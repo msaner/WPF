@@ -6,3 +6,7 @@
 
 
 // Calculate the age of a dog in dog years
+
+
+var age = 1*7;
+console.log(age)
