@@ -14,4 +14,4 @@ const dogYears = 7; //Dogs age 7 times faster than humans so 1 human year is 7 d
 //to figure out how old Sparky is in dog years we have to multiple his age by 7 and assign that to dogAge
 var dogAge = actualAge * dogYears
  
-console.log("Sparky is" + dogAge + "years old in dog years." );
+console.log("Sparky is" + " " + dogAge + " " + "years old in dog years." );
