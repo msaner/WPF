@@ -9,5 +9,6 @@
 //set up a prompt to ask user to choose a number for the first part of their pirate name
 
  var pirate1 = ["Captain", "Tiny", "Scallywag", "Moppet"];
- var firstname = 0;
+ var firstname = prompt("Generate your first name by choosing a number between 0 and 3.");
+ 
  console.log(pirate1[firstname]);
