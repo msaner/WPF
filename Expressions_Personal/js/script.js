@@ -25,6 +25,6 @@ var rate = 16.875; //sets the pay rate to be calculated
 var wkPay = wkHours * rate; //multiply the weekly paid hours worked (wkHours) * the hourly rate (rate) and store the weekly pay in (wkPay)
 
 
-//all that will show up now is 350.  lets write some strings to explain what that number is. we will show this by using console.log to print the results.
+//all that will show up now is the value for the amount earned a week.  lets write some strings to explain what that number is. we will show this by using console.log to print the results.
 //console.log(wkPay); this only shows our final variable, we'll comment it out and then add some strings to explain it.
 console.log("I will earn" + " " + "$" + wkPay + " " + "a week before taxes.");
