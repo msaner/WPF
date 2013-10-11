@@ -20,7 +20,9 @@ var wkHours = actual * daysWorked; //calculates the actual number of paid hours 
 //now let's set the pay rate and mulitply that by the number of hours worked to see what this person will earn 
 var rate = 8.75; //sets the pay rate to be calculated
 
+//we will store the weekly pay in wkPay 
 
+var wkPay
 
 
 
