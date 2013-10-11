@@ -9,13 +9,10 @@
 //set up a prompt to ask user to choose a number for the first part of their pirate name
 
 
+
+
+var firstName = prompt("To generate your First Name please choose a number between 0 & 3");
+
 var pirate1 = ["Captain", "Scallywag", "Tiny", "Moppet"]; //0, 1, 2, 3
 
-//lets associate the first pirate names with their index number
-pirate1[0] = Captain;
-pirate1[1] = Scallywag;
-pirate1[2] = Tiny;
-pirate1[3] = Moppet;
-
-
-console.log(pirate1);
+console.log(pirate1[firstname]);
