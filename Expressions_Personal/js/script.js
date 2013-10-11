@@ -4,7 +4,7 @@
 // 10-10-2013
 // Expressions Personal Assignment
 
-//Calculate how much money John will  earn in a week before taxes
+//Calculate how much money I will  earn in a week before taxes
 
 var hrScheduled = 9; //the number of hours scheduled to work each day
 var lunchBrk = 1; //non paid hours because of lunch break
@@ -18,7 +18,7 @@ var daysWorked = 5; //sets how many days a person works in a week
 var wkHours = actual * daysWorked; //calculates the actual number of paid hours worked per week, this number is stored in wkHours
 
 //now let's set the pay rate and mulitply that by the number of hours worked to see what this person will earn 
-var rate = 8.75; //sets the pay rate to be calculated
+var rate = 20; //sets the pay rate to be calculated
 
 //we will store the weekly pay in wkPay 
 
@@ -27,4 +27,4 @@ var wkPay = wkHours * rate; //multiply the weekly paid hours worked (wkHours) * 
 
 //all that will show up now is 350.  lets write some strings to explain what that number is. we will show this by using console.log to print the results.
 //console.log(wkPay); this only shows our final variable, we'll comment it out and then add some strings to explain it.
-console.log("If John earns" + " " +  "$" + rate + " " + "he will make" + " " + "$" + wkPay + "a week before taxes");
+console.log("I will earn" + "$" + wkPay + "a week before taxes.");
