@@ -8,3 +8,5 @@
 
 //set up a prompt to ask user to choose a number for the first part of their pirate name
 
+ var pirate1 = ["Captain", "Tiny", "Scallywag", "Moppet"];
+ console.log(pirate1[0]);
