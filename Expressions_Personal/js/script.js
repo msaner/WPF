@@ -22,7 +22,7 @@ var rate = 8.75; //sets the pay rate to be calculated
 
 //we will store the weekly pay in wkPay 
 
-var wkPay
+var wkPay = wkHours * rate; //multiply the weekly paid hours worked (wkHours) * the hourly rate (rate) and store the weekly pay in (wkPay)
 
 
 
