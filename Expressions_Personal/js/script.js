@@ -27,4 +27,4 @@ var wkPay = wkHours * rate; //multiply the weekly paid hours worked (wkHours) * 
 
 
 
-console.log(wkHours);
+console.log(wkPay);
