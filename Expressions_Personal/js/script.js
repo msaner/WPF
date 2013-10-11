@@ -4,7 +4,7 @@
 // 10-10-2013
 // Expressions Personal Assignment
 
-//Calculate how much money will  be earned in a week before taxes
+//Calculate how much money John will  earn in a week before taxes
 
 var hrScheduled = 9; //the number of hours scheduled to work each day
 var lunchBrk = 1; //non paid hours because of lunch break
