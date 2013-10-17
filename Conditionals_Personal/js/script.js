@@ -15,5 +15,5 @@ if (watts === "" || hotPockets === ""){
 //if both variables contain a value do this
 }else if(watts >= 700){
 	//if greater than 700 watts multiply hotPockets by 2minutes
-		console.log("hotPockets * 2");
+		console.log(hotPockets * 2);
 	}
