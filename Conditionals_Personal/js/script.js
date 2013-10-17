@@ -3,3 +3,6 @@
 // Conditionals Personal
 
 //Cooking time
+
+var watts = prompt("How many watts is your microwave? (Normally it's either 700 or 1100)");
+var hotPockets = 
