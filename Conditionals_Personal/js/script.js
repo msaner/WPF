@@ -13,7 +13,7 @@ var hotPockets = prompt("How many Hot Pockets are you doing to cook?");
 if (watts === "" || hotPockets === ""){
 	console.log("You did not enter a number for one of the questions. Please try again.");
 //if both variables contain a value do this
-}else if(watts >= 700){
+}else if(watts > 700){
 	//if greater than 700 watts multiply hotPockets by 2minutes to get the cooking time
 		console.log("You will need to cook your Hot Pockets for " + hotPockets * 2 + " minutes.");
 	}
