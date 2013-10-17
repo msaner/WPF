@@ -18,5 +18,6 @@ if (watts === "" || hotPockets === ""){
 		console.log("You will need to cook your Hot Pockets for " + hotPockets * 2 + " minutes.");
 	//if wattage is equal to or less than 700 do this
 	}else{
+		// if 700 watts or less multiple number of hotpockets by 5 minutes
 		console.log("You will need to cook your Hot Pockets for " + hotPockets * 5 + " minutes");
 	}
