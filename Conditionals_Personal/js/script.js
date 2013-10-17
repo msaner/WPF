@@ -16,4 +16,5 @@ if (watts === "" || hotPockets === ""){
 }else if(watts > 700){
 	//if greater than 700 watts multiply hotPockets by 2minutes to get the cooking time
 		console.log("You will need to cook your Hot Pockets for " + hotPockets * 2 + " minutes.");
+	//if wattage is equal to or less than 700 do this
 	}
