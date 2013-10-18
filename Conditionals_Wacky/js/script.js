@@ -10,3 +10,4 @@ var areYouSure = prompt("Are you sure, YES or No:");
 
 if (trickOrTreat == "trick" && areYouSure == "yes"){
 	console.log("HAPPY HALLOWEEN! You're candy is on it's way!");
+}
