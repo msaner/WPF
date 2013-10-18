@@ -2,7 +2,7 @@
 // 10-17-2013
 // Conditionals Industry
 
-// A/B split test - compare two email reults to see which one performed best.
+// A/B split test - compare two emails to see which one had the best click through rate.
 
 //prompt user to enter info for Email A
 var sentToA = prompt("How many people did you send Email 'A' to?");
