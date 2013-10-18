@@ -16,4 +16,6 @@ if (trickOrTreat == "treat" && areYouSure == "yes"){
 		console.log("Enjoy! http://www.goodtricks.net/elastic-coin-trick.html");
 	}else if(trickOrTreat == "trick" && areYouSure == "no"){
 		console.log("Well... aren't you indecisive!");
+	}else(trickOrTreat === "" || areYouSure === ""){
+		console.log("Please refresh the page and start over.  You forgot to answer one of the questions.  Please use all lowercase letters.");
 	}
