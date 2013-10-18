@@ -8,4 +8,7 @@
 var sentToA = prompt("How many people did you send Email 'A' to?");
 var clickThroughA = prompt("what was the click through rate for Email 'A'?");
 
+var sentToB = prompt("How many people did you send Email 'B' to?");
+var clickThroughB = prompt("what was the click through rate for Email 'B'?");
+
 console.log(sentToA + clickThroughA); 
