@@ -11,6 +11,7 @@ var areYouSure = prompt("Are you sure, yes or no:");
 // if user wants a treat and is sure about it then print the console message.
 if (trickOrTreat == "treat" && areYouSure == "yes"){
 	console.log("HAPPY HALLOWEEN! You're candy is on it's way!");
+	// if user wants a treat but isnt sure display this console message
 }else if(trickOrTreat == "treat" && areYouSure == "no"){
 		console.log("Well make up you're mind you crazy ghoul.");
 	}else if(trickOrTreat == "trick" && areYouSure == "yes"){
