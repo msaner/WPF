@@ -18,6 +18,6 @@ var clickPercentageA = (clicksA / sentToA) * 100;
 var clickPercentageB = (clicksB / sentToB) * 100;
 
 // now that we know the percentage of people that clicked on a link in our email lets find out which one performed better and display that in a text based message.
-
+(clickPercentageA < clickPercentageB) ? console.log("") : console.log(""); 
 
 console.log(clickPercentageB); 
