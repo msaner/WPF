@@ -8,6 +8,7 @@
 var trickOrTreat = prompt("Would you like a trick or a treat?");
 var areYouSure = prompt("Are you sure, yes or no:");
 
+// if user wants a treat and is sure about it then print the console message.
 if (trickOrTreat == "treat" && areYouSure == "yes"){
 	console.log("HAPPY HALLOWEEN! You're candy is on it's way!");
 }else if(trickOrTreat == "treat" && areYouSure == "no"){
