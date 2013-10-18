@@ -14,7 +14,7 @@ var clicksB = prompt("How many people clicked on a link in Email 'B'?");
 
 if (sentToA, clicksA, sentToB, clicksB === ""){
 	console.log("You did not enter a number for one of the questions. Please refresh the page and try again.");
-//if both variables contain a value do this
+//if none of the variables are empty continue 
 }else{
 
 // now we have the numbers lts convert this into a click through percentage for each email
