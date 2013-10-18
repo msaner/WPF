@@ -15,5 +15,5 @@ if (trickOrTreat == "treat" && areYouSure == "yes"){
 	}else if(trickOrTreat == "trick" && areYouSure == "yes"){
 		console.log("Enjoy! http://www.goodtricks.net/elastic-coin-trick.html");
 	}else if(trickOrTreat == "trick" && areYouSure =="no"){
-		
+		console.log("http://static.fjcdn.com/pictures/Make+Up+Your+Mind.+source+http+nabhan.deviantart.com+art+Make-Up-Your-Mind-319438579_3b9797_4003894.png");
 	}
