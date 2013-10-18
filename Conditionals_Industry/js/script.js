@@ -4,7 +4,8 @@
 
 // A/B split test - compare two email reults to see which one performed best.
 
+//prompt user to enter info for Email A
 var sentToA = prompt("How many people did you send Email 'A' to?");
 var clickThroughA = prompt("what was the click through rate for Email 'A'?");
 
-
+console.log(sentToA + clickThroughA); 
