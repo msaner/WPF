@@ -12,6 +12,11 @@ var clicksA = prompt("How many people clicked on a link in Email 'A'?");
 var sentToB = prompt("How many people did you send Email 'B' to?");
 var clicksB = prompt("How many people clicked on a link in Email 'B'?");
 
+if (sentToA, clicksA, sentToB, clicksB === ""){
+	console.log("You did not enter a number for one of the questions. Please refresh the page and try again.");
+//if both variables contain a value do this
+}else{
+
 // now we have the numbers lts convert this into a click through percentage for each email
 // these var will store the click through percentage
 var clickPercentageA = (clicksA / sentToA) * 100;
@@ -20,3 +25,4 @@ var clickPercentageB = (clicksB / sentToB) * 100;
 // now that we know the percentage of people that clicked on a link in our email lets find out which one performed better and display that in a text based message.
 (clickPercentageA < clickPercentageB) ? console.log("Email B had a better click through rate than Email A.") : console.log("Email A had a better click through rate than Email B."); 
 
+}
