@@ -20,6 +20,7 @@ if (trickOrTreat == "treat" && areYouSure == "yes"){
 		//if user wants a trick and isn't sure we point out their inability to make a decision
 	}else if(trickOrTreat == "trick" && areYouSure == "no"){
 		console.log("Well... aren't you indecisive!");
+		// this covers everything else... if none of the above conditions are met.  so if one of the variables is empty display this error message.
 	}else{
 		console.log("Please refresh the page and start over.  You forgot to answer one of the questions.  Please use all lowercase letters.");
 	}
