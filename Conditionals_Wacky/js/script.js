@@ -14,4 +14,4 @@ if (trickOrTreat == "treat" && areYouSure == "yes"){
 		console.log("Well make up you're mind you crazy ghoul.");
 	}else if(trickOrTreat == "trick" && areYouSure == "yes"){
 		console.log("Enjoy! http://www.goodtricks.net/elastic-coin-trick.html");
-	}
+	}else if(trickOrTreat == "trick" && areYouSure =="no");
