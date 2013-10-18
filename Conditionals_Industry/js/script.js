@@ -15,5 +15,6 @@ var clicksB = prompt("How many people clicked on a link in Email 'B'?");
 // now we have the numbers lts convert this into a click through percentage for each email
 // these var will store the click through percentage
 var clickPercentageA = (clicksA / sentToA) * 100;
+var clickPercentageB = (clicksB / sentToB) * 100;
 
-console.log(clickPercentageA); 
+console.log(clickPercentageB); 
