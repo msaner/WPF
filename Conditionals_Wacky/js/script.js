@@ -9,4 +9,4 @@ var trickOrTreat = prompt("Would you like a TRICK or a TREAT?");
 var areYouSure = prompt("Are you sure, YES or No:");
 
 if (trickOrTreat == "trick" && areYouSure == "yes"){
-	console.log("HAPPY HOLLOWEEN!");
+	console.log("HAPPY HALLOWEEN! You're candy is on it's way!");
