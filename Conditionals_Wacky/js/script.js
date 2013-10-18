@@ -17,6 +17,7 @@ if (trickOrTreat == "treat" && areYouSure == "yes"){
 		// if user wants a trick and is sure give them a link to a cool card and coin trick!
 	}else if(trickOrTreat == "trick" && areYouSure == "yes"){
 		console.log("Enjoy! http://www.goodtricks.net/elastic-coin-trick.html");
+		//if user wants a trick and isn't sure we point out their inability to make a decision
 	}else if(trickOrTreat == "trick" && areYouSure == "no"){
 		console.log("Well... aren't you indecisive!");
 	}else{
