@@ -6,12 +6,13 @@
 
 //prompt user to enter info for Email A
 var sentToA = prompt("How many people did you send Email 'A' to?");
-var clickThroughA = prompt("How many people clicked on a link in Email 'A'?");
+var clicksA = prompt("How many people clicked on a link in Email 'A'?");
 
 //user enter info for email B and store in these variables
 var sentToB = prompt("How many people did you send Email 'B' to?");
-var clickThroughB = prompt("How many people clicked on a link in Email 'B'?");
+var clicksB = prompt("How many people clicked on a link in Email 'B'?");
 
-// 
+// now we have the numbers lts convert this into a click through percentage for each email
+
 
 console.log(sentToB + clickThroughB); 
