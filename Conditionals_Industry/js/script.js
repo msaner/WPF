@@ -10,5 +10,5 @@ var clickThroughA = prompt("What was the click through rate for Email 'A'?");
 
 var sentToB = prompt("How many people did you send Email 'B' to?");
 var clickThroughB = prompt("What was the click through rate for Email 'B'?");
-s
+
 console.log(sentToB + clickThroughB); 
