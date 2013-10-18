@@ -12,4 +12,6 @@ if (trickOrTreat == "treat" && areYouSure == "yes"){
 	console.log("HAPPY HALLOWEEN! You're candy is on it's way!");
 }else if(trickOrTreat == "treat" && areYouSure == "no"){
 		console.log("Well make up you're mind you crazy ghoul.");
+	}else if(trickOrTreat == "trick" && areYouSure == "yes"){
+		console.log("Enjoy! http://www.goodtricks.net/elastic-coin-trick.html");
 	}
