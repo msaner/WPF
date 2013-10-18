@@ -3,3 +3,9 @@
 // Conditionals Wacky
 
 // Trick or Treat
+
+// user picks if they want a trick or a treat and confirms their choice
+var trickOrTreat = prompt("Would you like a TRICK or a TREAT?");
+var areYouSure = prompt("Are you sure, YES or No:");
+
+
