@@ -5,8 +5,8 @@
 // Trick or Treat
 
 // user picks if they want a trick or a treat and confirms their choice
-var trickOrTreat = prompt("Would you like a TRICK or a TREAT?");
-var areYouSure = prompt("Are you sure, YES or No:");
+var trickOrTreat = prompt("Would you like a trick or a treat?");
+var areYouSure = prompt("Are you sure, yes or no:");
 
 if (trickOrTreat == "treat" && areYouSure == "yes"){
 	console.log("HAPPY HALLOWEEN! You're candy is on it's way!");
@@ -14,6 +14,6 @@ if (trickOrTreat == "treat" && areYouSure == "yes"){
 		console.log("Well make up you're mind you crazy ghoul.");
 	}else if(trickOrTreat == "trick" && areYouSure == "yes"){
 		console.log("Enjoy! http://www.goodtricks.net/elastic-coin-trick.html");
-	}else if(trickOrTreat == "trick" && areYouSure =="no"){
-		console.log("http://static.fjcdn.com/pictures/Make+Up+Your+Mind.+source+http+nabhan.deviantart.com+art+Make-Up-Your-Mind-319438579_3b9797_4003894.png");
+	}else if(trickOrTreat == "trick" && areYouSure == "no"){
+		console.log("Well... aren't you indecisive!");
 	}
