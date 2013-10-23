@@ -18,3 +18,4 @@ function findCirc(dia, pi){ // the parameters will hold the values being passed 
 	return circumference;
 }
 
+console.log();
