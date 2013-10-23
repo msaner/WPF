@@ -34,6 +34,7 @@ var vicWeight = 213;
 // we're calling the function called stingsToDie and passing it the argument vicWeight
 var rip = stingsToDie(vicWeight);
 
+// the function will calculate the number of bee stings it will take for an animal to die based on it's weight in pounds.
 function stingsToDie(vicWeight){
 	
 }
