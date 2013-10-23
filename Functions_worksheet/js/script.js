@@ -44,4 +44,5 @@ function stingsToDie(vicWeight){
 }
 
 //console log will print out the result of the function that's now being stored in var rip.
-console.log(rip);
+// add in some concatenated strings so we will see an explanation of what this number represents.
+console.log("It takes " + rip + " bee stings to kill this animal.");
