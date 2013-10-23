@@ -30,5 +30,5 @@ console.log("The circumference of the circle is " + answer);
 // we'll put in the weight of the animal being stung here
 var vicWeight = 213;
 
-
+// var rip will hold the final result of the function
 var rip = stingsToDie(vicWeight);
