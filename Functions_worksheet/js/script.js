@@ -15,7 +15,9 @@ function findCirc(dia, pi){ // the parameters will hold the values being passed 
 	var circumference = radius * dia * pi; // 5 * 2 * 3.14
 	
 	// we need to get the result out of the function to display it we will use "return" for this
+	// the result will be kicked to the top above the function and be stored in variable answer that's equal to the function name we're calling.
 	return circumference;
 }
 
-console.log();
+// console log is displa
+console.log(answer);
