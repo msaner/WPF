@@ -22,3 +22,8 @@ function findCirc(radius){ // parameter is telling the function to pull in the v
 // console log is displaying the result of the function called findCirc
 // lets make this read like a scentence so it's clear what this number means
 console.log("The circumference of the circle is " + answer);
+
+
+
+// Stung!
+
