@@ -43,4 +43,5 @@ function stingsToDie(vicWeight){
 	return numOfStings;
 }
 
+//console log will print out the result of the function that's now being stored in var rip.
 console.log(rip);
