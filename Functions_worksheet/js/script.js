@@ -31,6 +31,4 @@ console.log("The circumference of the circle is " + answer);
 var vicWeight = 213;
 
 
-var rip = stingsToDie(){
-	
-}
+var rip = stingsToDie(vicWeight);
