@@ -27,3 +27,4 @@ console.log("The circumference of the circle is " + answer);
 
 // Stung!
 
+var vicWeight = 213;
