@@ -10,4 +10,6 @@ var radius = 5;
 // var answer will hold the answer
 var answer = findCirc(2, 3.14); // 2 to find the diameter and 3.14 represents pi to find cirumference
 
-
+function findCirc(){
+	
+}
