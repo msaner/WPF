@@ -14,4 +14,5 @@ var answer = findCirc(2, 3.14); // 2 to find the diameter and 3.14 represents pi
 function findCirc(dia, pi){ // the parameters will hold the values being passed on by the arguments above
 	var circumference = radius * dia * pi; // 5 * 2 * 3.14
 
+	return circumference;
 }
