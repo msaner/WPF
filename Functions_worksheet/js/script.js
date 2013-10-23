@@ -27,4 +27,5 @@ console.log("The circumference of the circle is " + answer);
 
 // Stung!
 
+// we'll put in the weight of the animal being stung here
 var vicWeight = 213;
