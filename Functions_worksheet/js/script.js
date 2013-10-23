@@ -42,3 +42,5 @@ function stingsToDie(vicWeight){
 	// return will move the result stored in numOfStings outside the function and store it in the var rip we set up
 	return numOfStings;
 }
+
+console.log(rip);
