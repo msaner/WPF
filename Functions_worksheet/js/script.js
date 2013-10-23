@@ -19,5 +19,5 @@ function findCirc(dia, pi){ // the parameters will hold the values being passed 
 	return circumference;
 }
 
-// console log is displa
+// console log is displaying the result of the function called findCirc
 console.log(answer);
