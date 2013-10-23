@@ -33,3 +33,7 @@ var vicWeight = 213;
 // var rip will hold the final result of the function
 // we're calling the function called stingsToDie and passing it the argument vicWeight
 var rip = stingsToDie(vicWeight);
+
+function stingsToDie(vicWeight){
+	
+}
