@@ -7,4 +7,5 @@
 // the radius of the circle which we will use to find the circumference
 var radius = 5;
 
-
+// var answer will hold the answer
+var answer = findCirc(2, 3.14); 
