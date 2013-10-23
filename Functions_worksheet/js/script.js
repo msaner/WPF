@@ -20,4 +20,5 @@ function findCirc(dia, pi){ // the parameters will hold the values being passed 
 }
 
 // console log is displaying the result of the function called findCirc
+// lets make this read like a scentence so it's clear what this number means
 console.log(answer);
