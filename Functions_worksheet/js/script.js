@@ -37,4 +37,6 @@ var rip = stingsToDie(vicWeight);
 // the function will calculate the number of bee stings it will take for an animal to die based on it's weight in pounds.
 function stingsToDie(vicWeight){
 	var numOfStings = vicWeight * 8.666666667; // vicWeight is the weight in pounds of the animal being stung * the number of stings per pound it takes to bring death.
+	
+	return numOfStrings;
 }
