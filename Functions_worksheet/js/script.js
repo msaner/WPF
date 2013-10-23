@@ -39,6 +39,6 @@ function stingsToDie(vicWeight){
 	var numOfStings = vicWeight * 8.666666667; // vicWeight is the weight in pounds of the animal being stung * the number of stings per pound it takes to bring death.
 	
 	// we need to move the result of the function outside of the function to display it and store it in the var we set up at the beginning.  we use return for this.
-	
+	// return will move the result stored in numOfStings outside the function and store it in the var rip we set up
 	return numOfStings;
 }
