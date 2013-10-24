@@ -11,7 +11,7 @@ var inHeight = prompt("Enter the height in Inches:");
 
 if(inToPx === "yes"){
 	var convert = function(dpi, inWidth, inHeight){
-		var pixelw = dpi * width;
+		var pixelw = dpi * inWidth;
 		console.log(pixelw);
 	}}
 	
