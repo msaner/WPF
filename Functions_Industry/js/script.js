@@ -15,4 +15,4 @@ if(inToPx === "yes"){
 		console.log(pixelw);
 	}}
 	
-	
+	var pixels = convert(dpi, width, height);
