@@ -15,6 +15,7 @@ var roundTrip = prompt("Do you need to know the cost of gas for a round trip? Pl
 // we're doing 2 things here first setting up a var that will hold the final result.  second making that var equal to the function we are calling.  notice miles and carMpg will be passed to the function
 var tripCost = gasCost(miles, carMpg, roundTrip);
 
+// in this function we will figure out what the cost of gas will be for the trip
 function gasCost(miles, carMpg, roundTrip){
 	var cost = (miles / carMpg) * 3.339;
 	
