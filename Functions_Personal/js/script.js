@@ -7,5 +7,5 @@
 
 // we'll store the user input for how many miles they will drive in this variable
 var miles = prompt("How many miles will you be driving?");
-
+var carMpg = prompt("What is your vehicles MPG?");
 
