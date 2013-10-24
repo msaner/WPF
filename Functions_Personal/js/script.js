@@ -16,10 +16,13 @@ var roundTrip = prompt("Do you need to know the cost of gas for a round trip? Pl
 var tripCost = gasCost(miles, carMpg, roundTrip);
 
 // in this function we will figure out what the cost of gas will be for the trip
-if (tripCost = "no"){
+if (tripCost == "no"){
 	function gasCost(miles, carMpg, roundTrip){
-	// cost will store the price of gas for a one way trip
-	var cost = (miles / carMpg) * 3.339; 
+		// cost will store the price of gas for a one way trip
+		var cost = (miles / carMpg) * 3.339; 
+	}
 }else{
+	function gasCost(miles, carMpg, roundTrip){
 	
+	}
 }
