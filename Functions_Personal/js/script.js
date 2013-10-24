@@ -4,6 +4,8 @@
 
 //calculate how much gas will cost for a trip
 
+
+// we'll store the user input for how many miles they will drive in this variable
 var miles = prompt("How many miles will you be driving?");
 
 
