@@ -31,4 +31,4 @@ if (roundTrip == "no"){
 	}
 
 //console log prints out the cost of fuel for the trip 
-console.log(tripCost);
+console.log("Based on the national average price of a gallon of gas, gas will cost $" + tripCost + " for this trip.");
