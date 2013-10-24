@@ -24,8 +24,11 @@ if (roundTrip == "no"){
 		// return will send the result out of the function and to the var tripCost at top
 		return cost
 	}
+	// if we need to calculate based on a round trip this code will run
 }else{
+	// we will make tripCost equale to miles times 2 (since we're driving both directions) divided by the cars MPG times the national avg. price per gallon
 	 var tripCost = (miles * 2 / carMpg) * 3.339;
 	}
 
+//console log prints out the cost of fuel for the trip 
 console.log(tripCost);
