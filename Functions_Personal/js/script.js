@@ -19,12 +19,13 @@ var tripCost = gasCost(miles, carMpg);
 if (roundTrip == "no"){
 	function gasCost(miles, carMpg){
 		// cost will store the price of gas for a one way trip
+		// miles divided by the cars MPG times the national avg. price for a gallon of gas 
 		var cost = (miles / carMpg) * 3.339; 
+		// return will send the result out of the function and to the var tripCost at top
 		return cost
 	}
 }else{
 	 var tripCost = (miles * 2 / carMpg) * 3.339;
-	 
 	}
 
 console.log(tripCost);
