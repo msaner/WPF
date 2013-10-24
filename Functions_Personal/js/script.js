@@ -12,3 +12,4 @@ var carMpg = prompt("What is your vehicles MPG?");
 // next we'll ask the user to tell us if they want to calculate fuel cost 1-way or round trip and store that answer in the var 
 var roundTrip = prompt("Do you need to know the cost of gas for a round trip? Please enter yes or no.");
 
+var tripCost = gasCost(miles, carMpg);
