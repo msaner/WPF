@@ -20,9 +20,10 @@ if (tripCost == "no"){
 	function gasCost(miles, carMpg, roundTrip){
 		// cost will store the price of gas for a one way trip
 		var cost = (miles / carMpg) * 3.339; 
+		console.log(cost);
 	}
 }else{
 	function gasCost(miles, carMpg, roundTrip){
-	
+		var cost = (miles * 2 / carMpg) * 3.339;
 	}
 }
