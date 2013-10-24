@@ -16,5 +16,5 @@ var roundTrip = prompt("Do you need to know the cost of gas for a round trip? Pl
 var tripCost = gasCost(miles, carMpg, roundTrip);
 
 function gasCost(miles, carMpg, roundTrip){
-	console.log(miles, carMpg, roundTrip);
+	(roundTrip == "yes") ? var cost = (miles * 2 / carMpg) * 3.339 : var cost =  ;
 }
