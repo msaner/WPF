@@ -21,6 +21,7 @@ var howMany = function(age, sweetTooth){
 		 var howMany = 98;
 		 // if a person does not meet both conditions meaning they are either younger than 17, rated their sweet tooth lower than 5 or both we will run the else statement
 	}else{
+		// so if one or both the conditions in the if statement are false when this is how many licks it takes 
 		var howMany = 326;
 	}
 	return howMany;
