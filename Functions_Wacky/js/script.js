@@ -13,7 +13,11 @@ var age = prompt("How old are you?");
 var sweetTooth = prompt("On a scale of 1(least)-10(most) how big is your sweet tooth?");
 
 // lets use an anonymous function here.  we have to define the function first.  the function call will come later
-
+// age and sweetTooth have been passed from the function call and are now parameters we can use in our function
+var howMany = function(age, sweetTooth){
+	
+}
 
 // this calls the function named howMany.  the result of the function will be stored in variable licks.
+// age and sweetTooth are arguments that will be passed to the function when it's called
 var licks = howMany(age, sweetTooth);
