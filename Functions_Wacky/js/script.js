@@ -19,6 +19,7 @@ var howMany = function(age, sweetTooth){
 	if (age >= 17 && sweetTooth > 5){
 		// if a person is age 17 or above AND they rated their love for sweets higher than 5 then it will take 98 licks
 		 var howMany = 98;
+		 // if a person does not meet both conditions meaning they are either younger than 17, rated their sweet tooth lower than 5 or both we will run the else statement
 	}else{
 		var howMany = 326;
 	}
