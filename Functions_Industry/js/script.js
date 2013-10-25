@@ -53,3 +53,10 @@ function divide(number1, number2, number3){
 	// kicks out and gets stored in the divlAnswer variable we set before this function
 	return divTotal;
 }
+
+// SHOW THE RESULTS IN THE CONSOLE
+
+// since we have two functions we need to tell the computer which result to display or it would show two lines in the console and one would result in an error.
+// we'll use if ... else if statements to check for certain conditions so the right result will be displayed
+
+  
