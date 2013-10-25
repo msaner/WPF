@@ -18,3 +18,5 @@ var number3 = prompt("Enter the last number to calculate:");
 // the three numbers we will calculate are stored as arguments here so we can pass them into the functions
 (mulOrDiv === "multiply") ? times(number1, number2, number3) : divide(number1, number2, number3);
 
+// we will set mulAnswer equal to the result of the function.  mulAnswer will end up holding the result of our calculation 
+var mulAnswer = times(number1, number2, number3);
