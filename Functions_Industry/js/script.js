@@ -4,4 +4,5 @@
 
 // simple calculator that will multiply or divide for us
 
+// the answer will be stored here and tell the code to use either the multiply or divide function
 var mulOrDiv = Prompt("Do you want to multiply or divide?");
