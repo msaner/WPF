@@ -24,5 +24,6 @@ var mulAnswer = times(number1, number2, number3);
 // if the user entered that they want to multiply this function will run
 // the arguments we passed to the function are now in the function as parameters
 function times(number1, number2, number3){
+	// mulTotal will hold the result of the 3 numbers being multiplied
 	var mulTotal = number1 * number2 * number3;
 }
