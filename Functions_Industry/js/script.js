@@ -59,10 +59,16 @@ function divide(number1, number2, number3){
 // since we have two functions we need to tell the computer which result to display or it would show two lines in the console and one would result in an error.
 // we'll use if ... else if statements to check for certain conditions so the right result will be displayed
 
+// if the user typed in multiply this statement will run
 if(mulOrDiv === "multiply"){
+	//if the user typed multiply then we will show this in the console
 	console.log(number1 + " x " + number2 + " x " + number3 + " = " + mulAnswer);
+	//if the user typed in divide this statement will run instead
 }else if(mulOrDiv === "divide"){
+	//if the user typed in divide this message will show inthe console
 	console.log(number1 + " / " + number2 + " / " + number3 + " = " + divAnswer);
+	// if both of the previous statements are false then this statement will run
 }else{
+	// if the user typed in anything other than "mulitply" or "divide" this message will show in the console
 	console.log("Something went wrong.  Please reload the page and try again.");
 }
