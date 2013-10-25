@@ -13,4 +13,8 @@ var number2 = prompt("Enter a second number to calculate:");
 // holds third number to be calculated
 var number3 = prompt("Enter the last number to calculate:");
 
+// we're going to have 1 function to multiply and 1 function to divide based on the user input stored in var mulOrDiv
+// if mulOrDiv is set to multiply then we ill call function times otherwise we will call the function divide
+// the three numbers we will calculate are stored as arguments here so we can pass them into the functions
 (mulOrDiv === "multiply") ? times(number1, number2, number3) : divide(number1, number2, number3);
+
