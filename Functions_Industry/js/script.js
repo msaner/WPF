@@ -63,4 +63,6 @@ if(mulOrDiv === "multiply"){
 	console.log(number1 + " x " + number2 + " x " + number3 + " = " + mulAnswer);
 }else if(mulOrDiv === "divide"){
 	console.log(number1 + " / " + number2 + " / " + number3 + " = " + divAnswer);
+}else{
+	console.log("Something went wrong.  Please reload the page and try again.");
 }
