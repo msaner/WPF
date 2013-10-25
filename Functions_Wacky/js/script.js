@@ -34,4 +34,5 @@ var howMany = function(age, sweetTooth){
 var licks = howMany(age, sweetTooth);
 
 // now that the result of our function is stored in the variable called licks that is also outside of the function we have to show it in the console
+// we will type out some text into strings and use concatenation to tie everything together so it displays a nice message in our console.
 console.log(licks);
