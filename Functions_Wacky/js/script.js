@@ -17,7 +17,7 @@ var sweetTooth = prompt("On a scale of 1(least)-10(most) how big is your sweet t
 var howMany = function(age, sweetTooth){
 	// where the magic happens... the until now Super Secret formula for figuring out the mystery of how to lick your way to that tootsie pop goodness
 	if (age >= 17 && sweetTooth > 5){
-		// 
+		// if a person is age 17 or above AND they rated their love for sweets higher than 5 then it will take 98 licks
 		 var howMany = 98;
 	}else{
 		var howMany = 326;
