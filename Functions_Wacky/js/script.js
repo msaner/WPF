@@ -15,7 +15,9 @@ var sweetTooth = prompt("On a scale of 1(least)-10(most) how big is your sweet t
 // lets use an anonymous function here.  we have to define the function first.  the function call will come later
 // age and sweetTooth have been passed from the function call and are now parameters we can use in our function
 var howMany = function(age, sweetTooth){
+	// where the magic happens... the until now Super Secret formula for figuring out the mystery of how to lick your way to that tootsie pop goodness
 	if (age >= 17 && sweetTooth > 5){
+		// 
 		 var howMany = 98;
 	}else{
 		var howMany = 326;
