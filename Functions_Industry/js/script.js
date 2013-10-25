@@ -10,3 +10,5 @@ var mulOrDiv = prompt("Do you want to multiply or divide?");
 var number1 = prompt("Enter a number to calculate:");
 // holds second number to be calculated
 var number2 = prompt("Enter a second number to calculate:");
+// holds third number to be calculated
+var number3 = prompt("Enter the last number to calculate:");
