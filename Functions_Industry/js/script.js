@@ -60,7 +60,7 @@ function divide(number1, number2, number3){
 // we'll use if ... else if statements to check for certain conditions so the right result will be displayed
 
 if(mulOrDiv === "multiply"){
-	console.log("mulAnswer");
+	console.log(mulAnswer);
 }else if(mulOrDiv === "divide"){
 	console.log(divAnswer);
 }
