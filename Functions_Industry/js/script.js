@@ -2,4 +2,5 @@
 // 10-23-2013
 // Functions Industry
 
-// 
+// simple calculator that will multiply or divide for us
+
