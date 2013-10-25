@@ -24,6 +24,8 @@ var howMany = function(age, sweetTooth){
 		// so if one or both the conditions in the if statement are false when this is how many licks it takes 
 		var howMany = 326;
 	}
+	// in order to use this value we have to get it out of the function.  we use the return statement to do this
+	// variable howMany will be moved outside the function and the value will be stored in the variable called licks
 	return howMany;
 }
 
