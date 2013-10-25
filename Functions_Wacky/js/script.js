@@ -1,4 +1,4 @@
 // Michael Saner
-// Date
-// Assignment Name
+// 10-24-2013
+// Functions Wacky
 
