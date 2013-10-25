@@ -45,5 +45,7 @@ function times(number1, number2, number3){
 var divAnswer = divide(number1, number2, number3);
 
 function divide(number1, number2, number3){
+	var divTotal = number1 / number2 / number3;
+	
 	
 }
