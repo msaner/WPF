@@ -12,3 +12,5 @@ var number1 = prompt("Enter a number to calculate:");
 var number2 = prompt("Enter a second number to calculate:");
 // holds third number to be calculated
 var number3 = prompt("Enter the last number to calculate:");
+
+(mulOrDiv === "multiply") ? times(number1, number2, number3) : divide(number1, number2, number3);
