@@ -32,4 +32,3 @@ function times(number1, number2, number3){
 	return mulTotal;
 }
 
-console.log(mulAnswer);
