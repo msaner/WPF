@@ -31,3 +31,5 @@ function times(number1, number2, number3){
 	// kicks out and gets stored in the mulAnswer variable we set before this function
 	return mulTotal;
 }
+
+console.log(mulAnswer);
