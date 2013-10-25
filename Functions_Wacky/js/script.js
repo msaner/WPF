@@ -33,4 +33,5 @@ var howMany = function(age, sweetTooth){
 // age and sweetTooth are arguments that will be passed to the function when it's called
 var licks = howMany(age, sweetTooth);
 
+// now that the result of our function is stored in the variable called licks that is also outside of the function we have to show it in the console
 console.log(licks);
