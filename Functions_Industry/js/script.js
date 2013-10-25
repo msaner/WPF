@@ -20,3 +20,9 @@ var number3 = prompt("Enter the last number to calculate:");
 
 // we will set mulAnswer equal to the result of the function.  mulAnswer will end up holding the result of our calculation 
 var mulAnswer = times(number1, number2, number3);
+
+// if the user entered that they want to multiply this function will run
+// the arguments we passed to the function are now in the function as parameters
+function times(number1, number2, number3){
+	var mulTotal = number1 * number2 * number3;
+}
