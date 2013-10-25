@@ -49,5 +49,7 @@ function divide(number1, number2, number3){
 	// var div total holds the result of the 3 numbers being divided
 	var divTotal = number1 / number2 / number3;
 	
-	
+	// now that we have the answer to our calculation we need to get it outside of the function.  we will return divTotal so it
+	// kicks out and gets stored in the divlAnswer variable we set before this function
+	return divTotal;
 }
