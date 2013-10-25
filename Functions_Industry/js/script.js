@@ -59,4 +59,8 @@ function divide(number1, number2, number3){
 // since we have two functions we need to tell the computer which result to display or it would show two lines in the console and one would result in an error.
 // we'll use if ... else if statements to check for certain conditions so the right result will be displayed
 
-  
+if(mulOrDiv === "multiply"){
+	console.log("mulAnswer");
+}else if(mulOrDiv === "divide"){
+	console.log(divAnswer);
+}
